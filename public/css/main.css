@@ -40,6 +40,10 @@ body {
   font-size: 3em;
   margin-top: 12em;
   font-weight: bold;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 button {
@@ -48,18 +52,27 @@ button {
   text-align: center;
   border: none;
   text-decoration: none;
-  margin: 4em;
   font-size: 3em;
+  margin: 4em;
+  top: 50%; 
+  left: 50%;
+}
+
+#enterBtn {
   cursor: pointer;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   margin: 30px -50px; 
-  position: relative;
   top: 50%; 
   left: 50%;
   border-radius: 6px;
+  padding-right: 1em;
+  padding-left: 1em;
+  padding-top: .4em;
+  padding-bottom: .4em;
+}
+
+#verifyBtn {
+padding: .4em;
+
 }
 
 .box {
@@ -68,6 +81,6 @@ button {
   justify-content: center;
 }
 
-.verifyBtn {
-  left: 46%;
+#verifyBtn {
+  margin:0em
 }
